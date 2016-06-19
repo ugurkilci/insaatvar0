@@ -1,0 +1,39 @@
+index.(
+	nasıl çalışıyor(3 adımda). jsdhgfjsfhjdfjsdghfj
+)
+ekle.(
+	şehir.adres.gönder.isim
+)
+bul.(
+	şehir/adres/isime
+)
+sirala.(
+	şehir/adres/isime
+)
+sayfa.(
+	id.sdjfgblsdhgol
+)
+hit sistemi.+1(
+	sayfa>id>+1
+)
+
+		<?php readfile("header.php");?>
+		
+		<?php 
+			if($_POST){
+				$sehir = $_POST["sehir"];
+				
+				header("refresh: 2; url=sirala.php?bul=$sehir");
+				echo "Bulunuyor. Azıcık sabır. :)";
+			}
+		?>
+		
+		<form action="" method="POST">
+			<select name="sehir">
+				<option>İstanbul</option>
+				<option>İzmir</option>
+				<option>Ankara</option>
+				<option>Aydın</option>
+			</select>
+			<input type="submit" value="Bul" /><br>
+		</form>

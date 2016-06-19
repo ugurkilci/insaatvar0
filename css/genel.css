@@ -1,0 +1,40 @@
+body{
+	background: #222;
+}
+
+.menu{
+	padding: 20px;
+	background: #222;
+}
+
+.menu a{
+	padding: 22px;
+	background: #222;
+	color: white;
+}
+
+.menu a:hover{
+	padding: 22px;
+	background: #fdce13;
+	color: black;
+}
+
+.icerik{
+	height: 50%;
+	padding: 20px;
+	background: #fdce13;
+	color: black;
+}
+
+.footer{
+	color: white;
+}
+
+.footer a{
+	color: white;
+	text-decoration: none;
+}
+
+.bomba{
+	background: white;
+}
